@@ -1,0 +1,5 @@
+x_filter: 0.0
+z_filter: 1.5
+side_degree: 20.0
+input_topic: "/points_raw"
+output_topic: "/degree_filterd_points"

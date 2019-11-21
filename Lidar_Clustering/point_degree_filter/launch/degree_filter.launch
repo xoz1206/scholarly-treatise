@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find point_degree_filter)/cfg/filter_params.yaml"/>
+    <node name="point_degree_filter" pkg="point_degree_filter" type="point_degree_filter" />
+</launch>
